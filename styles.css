@@ -1,0 +1,125 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+			line-height: 1.6;
+			display: flex;
+			flex-direction: column;
+			background-color: #d9d9d9;
+        }
+		
+header {
+     background-color: #4c74af;
+     color: white;
+     padding: 20px;
+     text-align: center; 
+}
+nav {
+            background-color: #333;
+        }
+/*
+header h1 {
+    margin: 1;
+}
+*/
+
+nav ul {
+    list-style: none;
+    display: flex;
+	align-items: flex-start;
+    padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+ nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+		
+nav a:hover {
+    background-color: #474747;
+}
+
+section {
+            padding: 20px;
+        }
+
+.gallery img {
+			width: 420;
+			height: 368;
+            margin: 10px;
+            border: 2px solid #ddd;
+        }
+.gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+		
+.gallery1 img {
+			width: 620;
+			height: 268;
+            margin: 10px;
+            border: 2px solid #ddd;
+        }
+.gallery1 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+		
+.gallery2 img {
+			width: 520;
+			height: 180;
+            margin: 10px;
+            border: 2px solid #ddd;
+        }
+.gallery2 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+.gallery3 img {
+			width: 820;
+			height: 480;
+            margin: 10px;
+            border: 2px solid #ddd;
+        }
+.gallery3 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+main {
+    max-width: 1080px;
+	padding: 2rem auto;
+	margin: 2rem auto;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #1A4780;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+		
+footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
